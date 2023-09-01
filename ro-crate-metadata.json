@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-01-20T16:24:30.927470",
+            "datePublished": "2023-09-01T09:53:13.668211",
             "hasPart": [
                 {
                     "@id": "hic_fastq_to_cool_hicup_cooler.ga"
@@ -58,19 +58,19 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_hic-fastq-to-cool-hicup-cooler_1"
+                    "@id": "#test_hic_fastq_to_pairs_hicup_1"
                 },
                 {
-                    "@id": "#test_hic-fastq-to-pairs-hicup_1"
+                    "@id": "#test_chic_fastq_to_cool_hicup_cooler_1"
                 },
                 {
-                    "@id": "#test_chic-fastq-to-cool-hicup-cooler_1"
+                    "@id": "#test_hic_juicermediumtabix_to_cool_cooler_1"
                 },
                 {
-                    "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1"
+                    "@id": "#test_hic_fastq_to_cool_hicup_cooler_1"
                 }
             ],
-            "name": "hic-hicup-cooler/hic-fastq-to-cool-hicup-cooler"
+            "name": "hic-hicup-cooler/hic_fastq_to_cool_hicup_cooler"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -94,12 +94,12 @@
                     "@id": "https://orcid.org/0000-0002-1964-4960"
                 }
             ],
-            "name": "hic-hicup-cooler/hic-fastq-to-cool-hicup-cooler",
+            "name": "hic-hicup-cooler/hic_fastq_to_cool_hicup_cooler",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
@@ -123,25 +123,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test_hic-fastq-to-cool-hicup-cooler_1",
+            "@id": "#test_hic_fastq_to_cool_hicup_cooler_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "hic_fastq_to_cool_hicup_cooler-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_hic-fastq-to-cool-hicup-cooler_1_1"
+                    "@id": "#test_hic_fastq_to_cool_hicup_cooler_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "hic_fastq_to_cool_hicup_cooler.ga"
             },
-            "name": "test_hic-fastq-to-cool-hicup-cooler_1"
+            "name": "test_hic_fastq_to_cool_hicup_cooler_1"
         },
         {
-            "@id": "#test_hic-fastq-to-cool-hicup-cooler_1_1",
+            "@id": "#test_hic_fastq_to_cool_hicup_cooler_1_1",
             "@type": "TestInstance",
-            "name": "test_hic-fastq-to-cool-hicup-cooler_1_1",
+            "name": "test_hic_fastq_to_cool_hicup_cooler_1_1",
             "resource": "repos/iwc-workflows/hic-hicup-cooler/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -165,7 +165,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.3"
+            "engineVersion": ">=0.75.10"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -187,33 +187,33 @@
                     "@id": "https://orcid.org/0000-0002-1964-4960"
                 }
             ],
-            "name": "hic-hicup-cooler/chic-fastq-to-cool-hicup-cooler",
+            "name": "hic-hicup-cooler/chic_fastq_to_cool_hicup_cooler",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#test_chic-fastq-to-cool-hicup-cooler_1",
+            "@id": "#test_chic_fastq_to_cool_hicup_cooler_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "chic_fastq_to_cool_hicup_cooler-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_chic-fastq-to-cool-hicup-cooler_1_1"
+                    "@id": "#test_chic_fastq_to_cool_hicup_cooler_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "chic_fastq_to_cool_hicup_cooler.ga"
             },
-            "name": "test_chic-fastq-to-cool-hicup-cooler_1"
+            "name": "test_chic_fastq_to_cool_hicup_cooler_1"
         },
         {
-            "@id": "#test_chic-fastq-to-cool-hicup-cooler_1_1",
+            "@id": "#test_chic_fastq_to_cool_hicup_cooler_1_1",
             "@type": "TestInstance",
-            "name": "test_chic-fastq-to-cool-hicup-cooler_1_1",
+            "name": "test_chic_fastq_to_cool_hicup_cooler_1_1",
             "resource": "repos/iwc-workflows/hic-hicup-cooler/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -229,7 +229,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.3"
+            "engineVersion": ">=0.75.10"
         },
         {
             "@id": "hic_juicermediumtabix_to_cool_cooler.ga",
@@ -243,33 +243,33 @@
                     "@id": "https://orcid.org/0000-0002-1964-4960"
                 }
             ],
-            "name": "hic-hicup-cooler/hic-juicermediumtabix-to-cool-cooler",
+            "name": "hic-hicup-cooler/hic_juicermediumtabix_to_cool_cooler",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1",
+            "@id": "#test_hic_juicermediumtabix_to_cool_cooler_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "hic_juicermediumtabix_to_cool_cooler-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1_1"
+                    "@id": "#test_hic_juicermediumtabix_to_cool_cooler_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "hic_juicermediumtabix_to_cool_cooler.ga"
             },
-            "name": "test_hic-juicermediumtabix-to-cool-cooler_1"
+            "name": "test_hic_juicermediumtabix_to_cool_cooler_1"
         },
         {
-            "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1_1",
+            "@id": "#test_hic_juicermediumtabix_to_cool_cooler_1_1",
             "@type": "TestInstance",
-            "name": "test_hic-juicermediumtabix-to-cool-cooler_1_1",
+            "name": "test_hic_juicermediumtabix_to_cool_cooler_1_1",
             "resource": "repos/iwc-workflows/hic-hicup-cooler/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -285,7 +285,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.3"
+            "engineVersion": ">=0.75.10"
         },
         {
             "@id": "hic_fastq_to_pairs_hicup.ga",
@@ -299,33 +299,33 @@
                     "@id": "https://orcid.org/0000-0002-1964-4960"
                 }
             ],
-            "name": "hic-hicup-cooler/hic-fastq-to-pairs-hicup",
+            "name": "hic-hicup-cooler/hic_fastq_to_pairs_hicup",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#test_hic-fastq-to-pairs-hicup_1",
+            "@id": "#test_hic_fastq_to_pairs_hicup_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "hic_fastq_to_pairs_hicup-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_hic-fastq-to-pairs-hicup_1_1"
+                    "@id": "#test_hic_fastq_to_pairs_hicup_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "hic_fastq_to_pairs_hicup.ga"
             },
-            "name": "test_hic-fastq-to-pairs-hicup_1"
+            "name": "test_hic_fastq_to_pairs_hicup_1"
         },
         {
-            "@id": "#test_hic-fastq-to-pairs-hicup_1_1",
+            "@id": "#test_hic_fastq_to_pairs_hicup_1_1",
             "@type": "TestInstance",
-            "name": "test_hic-fastq-to-pairs-hicup_1_1",
+            "name": "test_hic_fastq_to_pairs_hicup_1_1",
             "resource": "repos/iwc-workflows/hic-hicup-cooler/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -341,7 +341,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.3"
+            "engineVersion": ">=0.75.10"
         }
     ]
 }
