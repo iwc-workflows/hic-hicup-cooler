@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-09-15T09:40:24.299054",
+            "datePublished": "2026-06-24T15:52:21.901917",
             "hasPart": [
                 {
                     "@id": "hic-fastq-to-cool-hicup-cooler.ga"
@@ -58,16 +58,16 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1"
-                },
-                {
-                    "@id": "#test_chic-fastq-to-cool-hicup-cooler_1"
-                },
-                {
                     "@id": "#test_hic-fastq-to-pairs-hicup_1"
                 },
                 {
                     "@id": "#test_hic-fastq-to-cool-hicup-cooler_1"
+                },
+                {
+                    "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1"
+                },
+                {
+                    "@id": "#test_chic-fastq-to-cool-hicup-cooler_1"
                 }
             ],
             "name": "hic-hicup-cooler/hic-fastq-to-cool-hicup-cooler"
@@ -99,7 +99,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#galaxy",
@@ -165,7 +165,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.11"
+            "engineVersion": ">=0.75.44"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -192,7 +192,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#test_chic-fastq-to-cool-hicup-cooler_1",
@@ -229,7 +229,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.11"
+            "engineVersion": ">=0.75.44"
         },
         {
             "@id": "hic-juicermediumtabix-to-cool-cooler.ga",
@@ -248,7 +248,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#test_hic-juicermediumtabix-to-cool-cooler_1",
@@ -285,7 +285,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.11"
+            "engineVersion": ">=0.75.44"
         },
         {
             "@id": "hic-fastq-to-pairs-hicup.ga",
@@ -304,7 +304,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/hic-hicup-cooler",
-            "version": "0.3"
+            "version": "0.4"
         },
         {
             "@id": "#test_hic-fastq-to-pairs-hicup_1",
@@ -341,7 +341,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.11"
+            "engineVersion": ">=0.75.44"
         }
     ]
 }
